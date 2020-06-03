@@ -1,0 +1,16 @@
+// props are used to pass info to down the component tree 
+// from parent to children . in order to propagate info in the opposite direction , we can use callback functions, also passed down as props from 
+// parent components to children .However , because these functions are defined in the parent , 
+we can use callback functions , also passed down as props from parent components to children 
+however because these functions are defined in the parent , the will still be in that context 
+
+ColorSelector  component provides the user interface to select a specific color. When a particular Cell is clicked , its backgroung color 
+
+ColorSelector is choosen by user , user selects a specific color 
+
+Matrix keep track of the current selected color 
+Because passing information between children components is tabool in react 
+
+Color Slector has a wat to set some selected color is when it is clicked 
+
+Cell has a way to know what the current selected color is when it is clicked 
